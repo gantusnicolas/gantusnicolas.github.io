@@ -1,0 +1,216 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Curriculum Nicolas Gantus</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<style>
+		
+		* 
+		{
+			box-sizing: border-box; 
+		}
+		
+		#Nombre
+		{
+			font-size: 35px;
+			color: steelblue;
+			padding-top: 20px;
+			
+		}
+		#FotoContacto
+		{
+			width: 205px;
+			height: 205px;
+			border-radius: 20px;
+			border: outset lightgray 5px;
+		}
+		#Contacto
+		{
+			border:solid 1px;
+		}
+		
+		#TituloContacto
+		{
+			border: solid 1px;
+			padding: 10px;
+			border-radius: 15px;
+			font-size: 20px;
+			background-color: steelblue;
+			color: white;
+		}
+		
+		header
+		{
+			background-color: white;
+		}
+		
+		#Objetivo
+		{
+			padding:20px;
+			background-color: #e2e2e2
+		}
+		
+		#TituloInformatica
+		{
+			border: solid 1px;
+			padding: 10px;
+			font-size: 20px;
+			background-color: steelblue;
+			color: white;
+		}
+		
+		#Columnas
+		{  
+			display: flex;
+			flex-wrap: wrap;
+		}
+		
+		#Izquierda 
+		{
+			flex: 60%;
+			padding: 20px;
+			border:solid 2px;
+			background-color: rgb(160, 218, 252);
+			font-family: arial;
+			color:black;
+		}
+
+		#Derecha 
+		{
+			flex: 40%;
+			padding: 20px;
+			background-color: gray;
+			line-height: 35px;
+			color:white;
+			font-family: arial;
+		}
+		
+		@media (max-width: 800px) 
+		{
+			#Columnas
+			{   
+				flex-direction: column;
+			}
+		}
+	</style>
+	<body>
+		<header>		
+			<figure style="float: left">
+					<img id="FotoContacto" src="Perfil.jpeg">
+			</figure>
+			<h1 id="Nombre">Nicolas Gantus</h1>		
+			<fieldset id="Contacto">
+				<legend id="TituloContacto">Contacto</legend>
+				<ul>
+					<li>Domicilio: Bacacay 5066, CABA</li>
+					<li>Telefono: 1127701740</li>
+					<li>Email: gantus.nicolas@gmail.com</li>
+				</ul>
+			</fieldset>				
+		
+			<br>
+			
+		</header>
+		
+		<div style="background-color:#717d7e">
+		<br>
+		</div>
+		
+		<section id="Objetivo">
+			<fieldset id="Contacto">
+				<legend id="TituloContacto">Mi Objetivo</legend>
+				<p>Mi objetivo es establecerme en un puesto de trabajo en el que pueda aplicar todos mis conocimientos adquiridos como programador, asi como aportar ideas o posibles mejoras. Me gusta liderar y llevar a cabo proyectos grupales y me motiva el desarrollo de cualquier tipo de software. Mi meta es desarrollarme en el ambito laboral tanto com en el personal y tener un puesto de trabajo estable en el cual pueda estudiar ingenieria en sistemas en conjunto con el trabajo.</p>
+			</fieldset>
+		</section>
+				
+		<section id="Columnas">		
+				<section id="Izquierda">
+					<b>
+					<fieldset id="Contacto">
+						<legend id="TituloContacto">Formacion</legend>
+						<ul>
+							<li>
+								<h1 style="font-size:22px">Escuela Tecnica 35 D.E 18 Ingeniero Eduardo Latzina</h1>
+								<p>Inicio: 2014 | Finalizacion: En proceso <br>
+								   Nivel: Secundario <br>
+								   Titulo: Tecnico en computacion</p>
+							</li>
+							
+							<br>					
+							<li>
+								<h1 style="font-size:22px">Escuela 7 D.E 18 Republica Arabe de Egipto</h1>
+								<p>Inicio: 2006 | Finalizacion: 2013 <br>
+								   Nivel: Primario</p>
+							</li>
+							
+							<br>
+							<li>
+								<h1 style="font-size:22px">Instituto Modelo de Ingles</h1>
+								<p>Inicio: 2011 | Finalizacion: 2017 <br>
+								   Título: Diploma de Ingles</p>
+							</li>
+							
+							<br>
+							<li>
+								<h1 style="font-size:22px">Aprende Programando</h1>
+								<p>Inicio: 2019 | Finalizacion: En proceso
+								   Seccion: Desarrollo de videojuegos en Javascript</p>
+							</li>
+						</ul>
+					</fieldset>
+					
+					<fieldset id="Contacto" style="margin-top:20px">
+						<legend id="TituloContacto">Proyectos</legend>
+						<ul style="line-height:27px">
+							<li>Sistema de transporte de mercaderia</li>
+							<li>Ajedrez electromecanico por reconocimiento de voz (en proceso)</li>
+							<li>Cuadro digital educativo (en proceso)</li>
+							<li>Impossible Game <a href=https://play.google.com/store/apps/details?id=com.GanGames.ImpossibleGame target="_blank">Link a PlayStore</a></li>
+							<li>Viborita <a href=https://play.google.com/store/apps/details?id=com.nico.viborita target="_blank">Link a PlayStore</a></li>
+							<li>Soccer Hit <a href=https://play.google.com/store/apps/details?id=com.gangames.soccerhit target="_blank">Link a PlayStore</a></li>
+							<li>Tanques3D(en proceso)</li>
+						</ul>
+					</fieldset>
+					</b>
+				</section>
+				
+				<section id="Derecha">
+					<b>
+						<h1 id="TituloInformatica">Informatica</h1>
+						<ul>	
+							<li>Java: Alto</li>
+							<li>C++: Alto</li>
+							<li>C#: Alto</li>
+							<li>JavaScript: Medio</li>
+							<li>Python: Basico - Medio</li>
+							<li>Unity3D: Alto</li>
+							<li>Android Studio: Medio</li>
+							<li>SQL: Medio - Alto</li>
+							<li>Arduino: Medio - Alto</li>
+							<li>HTML: Basico - Medio</li>
+							<li>CSS: Basico - Medio</li>
+							<li>Reparacion de PC: Medio</li>
+							<li>Visual Basic .NET: Alto</li>
+							<li>Manejo de Linux: Medio</li>
+						</ul>
+						<hr>
+						<h1 id="TituloInformatica">Idiomas</h1>
+						<ul>
+							<li>Ingles: Medio</li>
+						</ul>
+						<hr>
+						<h1 id="TituloInformatica">Intereses</h1>
+						<ul>
+							<li>Desarrollo de aplicaciones y juegos</li>
+							<li>Aprender nuevos lenguajes de programacion</li>
+							<li>Desarrollo de sistemas informaticos</li>
+							<li>Proyectos con arduino</li>
+							<li>Reparacion de computadoras</li>
+						</ul>
+					</b>
+				</section>
+		</section>
+	</body>
+</html>
